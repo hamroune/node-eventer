@@ -10,7 +10,7 @@ Then import it into your project:
 
 ```js
 //Initilze The Node Eventer
-var nodeEventer = require('./lib/node-eventer.js').init();
+var nodeEventer = require('node-eventer').init();
 
 //Subscribe from any piece of your code
 nodeEventer.subscribe('helloworld', function(data){
