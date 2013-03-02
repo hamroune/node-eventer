@@ -1,0 +1,49 @@
+{
+  "name": "node-eventer",
+  
+  "version": "0.3.0",
+
+  "description": "Pub/Sub Events Library",
+  
+  "homepage": "http://github.com/hamroune/node-eventer",
+  
+  "author": {
+    "name": "Hamroune Zahir",
+    "url": "https://twitter.com/hamrounez"
+  },
+
+  "contributors": [
+    {
+      "name": " Hamroun zahir",
+      "email": "hamroune.z@gmail.com"
+    }
+  ],
+
+  "preferGlobal": false,
+
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hamroune/node-eventer.git"
+  },
+
+  "keywords": [
+    "events",
+    "publish",
+    "subscribe",
+    "fanout",
+    "notification",
+    "messages"
+  ],
+
+  "directories": { "lib": "./lib", "test": "./test" },
+
+  "dependencies": {
+    "bash-color": "*"
+  },
+  
+  "main": "lib/node-eventer"
+}
